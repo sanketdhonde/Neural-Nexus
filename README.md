@@ -1,101 +1,26 @@
+# Lama Dev School Management Dashboard
 
-# Define 3.0
-The official template repository for Define 3.0
+## Getting Started
 
-![DefineHack 2025 Logo](https://github.com/user-attachments/assets/8173bc16-418e-4912-b500-c6427e4ba4b6)
+First, run the development server:
 
-
-
-# < Project Name >
- Cover Image  If applicable
-
-### Team Information
-- **Team Name**: Neural Nexus 
-- **Track**: AI in A
-
-### Team Members
-| Name | Role | GitHub | LinkedIn |
-|------|------|--------|----------|
-| [Full Name] | [Role] | [@username](https://github.com/username) | [Profile](https://linkedin.com/in/username) |
-| [Full Name] | [Role] | [@username](https://github.com/username) | [Profile](https://linkedin.com/in/username) |
-| [Full Name] | [Role] | [@username](https://github.com/username) | [Profile](https://linkedin.com/in/username) |
-| [Full Name] | [Role] | [@username](https://github.com/username) | [Profile](https://linkedin.com/in/username) |
-
-## Project Details
-
-### Overview
-_A concise summary of your project (2-3 sentences)_
-
-### Problem Statement
-_Describe the problem your project aims to solve_
-
-### Solution
-_Explain your approach to solving the problem_
-
-### Demo
-[![Project Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-_Replace VIDEO_ID with your YouTube video ID or provide an alternative demo link_
-
-### Live Project
-[Project Name](https://your-project-url.com)
-
-## Technical Implementation
-
-### Technologies Used
-- **Frontend**: [Technologies]
-- **Backend**: [Technologies]
-- **Database**: [Technologies]
-- **APIs**: [Technologies]
-- **DevOps**: [Technologies]
-- **Other Tools**: [Technologies]
-
-### Key Features
-- Feature 1
-- Feature 2
-- Feature 3
-
-## Setup Instructions
-
-### Prerequisites
-- Requirement 1
-- Requirement 2
-- Requirement 3
-
-### Installation 
 ```bash
-
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-### Running the Project
-```bash
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Additional Resources
+## Learn More
 
-### Project Timeline
-_Brief overview of your development process and milestones_
+To learn more about Next.js, take a look at the following resources:
 
-### Challenges Faced
-_Discuss technical challenges and how you overcame them_
-
-### Future Enhancements
-_Share your vision for future development_
-
-### References (if any)
-- [Reference 1](link)
-- [Reference 2](link)
-
----
-
-### Submission Checklist
-- [ ] Completed all sections of this README
-- [ ] Added project demo video
-- [ ] Provided live project link
-- [ ] Ensured all team members are listed
-- [ ] Included setup instructions
-- [ ] Submitted final code to repository
-
----
-
-© Define 3.0 | [Define 3.0](https://www.define3.xyz/)
+- [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
+- [Next.js](https://nextjs.org/learn)
