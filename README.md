@@ -59,37 +59,67 @@ Replace VIDEO_ID with your YouTube video ID or provide an alternative demo link
 - *Green Analysis Dashboard* – Compares the carbon footprint of Ayurveda vs. Allopathy.  
 
 
-## Setup Instructions
+## Setup Instructions  
 
-### Prerequisites
-- Requirement 1
-- Requirement 2
-- Requirement 3
+### Prerequisites  
+- Install *Node.js* (v16 or later)  
+- Install *Python* (v3.8 or later)  
+- Install *MongoDB* and ensure it's running  
+- API keys for *Google Maps API* (for doctor allocation)  
 
-### Installation 
+### Installation  
+Clone the repository:  
 bash
+git clone https://github.com/your-repo/AyurVention.git
+cd AyurVention
 
 
 
 ### Running the Project
-bash
+cd frontend
+npm run dev
+
+
+cd backend
+uvicorn main:app --reload  # Runs FastAPI server
+node server.js  # Runs Node.js API
 
 
 
-## Additional Resources
+### Project Timeline  
+Below is a brief overview of our development process and key milestones:  
 
-### Project Timeline
-Brief overview of your development process and milestones
+| *Phase*      | *Tasks & Milestones*                                      | 
+|---------------|--------------------------------------------------------------|
+| Research & Planning | Identifying problems, gathering datasets, defining architecture | 
+| AI Model Development | Training models for skin disease detection, plant recognition, and Ayurvedic prescription recommendations |
+| Backend Development | Setting up FastAPI, Node.js, database, and APIs for AI processing |
+| Frontend Development | Building UI with Next.js, Tailwind CSS, chatbot, and dashboard |
+| Integration & Testing | Connecting backend with frontend, API testing, performance tuning | 
+| Deployment & Optimization | Hosting on cloud, improving efficiency, security testing |
 
-### Challenges Faced
-Discuss technical challenges and how you overcame them
+### Challenges Faced  
+During development, we encountered several challenges:  
 
-### Future Enhancements
-Share your vision for future development
+- *Data Availability:* Finding diverse, high-quality Ayurvedic datasets for AI training.  
+- *Model Accuracy:* Ensuring high precision in skin disease recognition and plant identification.  
+- *API Integration:* Optimizing Google Maps API for doctor recommendations and location-based services.  
+- *Performance & Scalability:* Balancing AI model complexity with real-time response speed.  
 
-### References (if any)
-- [Reference 1](link)
-- [Reference 2](link)
+*How we overcame them:*  
+- Leveraged *transfer learning* for AI models.  
+- Used *data augmentation* to enhance training datasets.  
+- Implemented *caching mechanisms* for faster API responses.  
+- Conducted rigorous *user testing* to refine UI/UX.  
+
+### Future Enhancements  
+Our roadmap includes:  
+- *Mobile App Development* for better accessibility.  
+- *Voice-enabled Chatbot* for hands-free Ayurvedic assistance.  
+- *AI-powered Real-time Consultations* with Ayurvedic doctors.  
+- *Personalized Health Insights* based on user history and Ayurvedic principles.  
+- *Green Analysis Dashboard Enhancements* to measure environmental impact in real-time.  
+
 
 ---
 
